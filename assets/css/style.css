@@ -12,6 +12,7 @@ body, html {
   background: transparent;
   color: #3a3a3a;
   height: 100%;
+  overflow: hidden;
 }
 #head-2{
   font-size: 400%;
@@ -94,6 +95,7 @@ a:active {color: #416467;}
          -o-background-size: cover;
             background-size: cover;
     height: 100%;
+    /* width: 100%; */
 	position: relative;
 	text-align:center;
 }
