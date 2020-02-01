@@ -6,14 +6,37 @@
 */
 body, html {
   font-family: 'Wallpoet', sans-serif;
-  /* font-weight: 400; */
-  /* font-size: 90px; */
-  /* text-transform: uppercase; */
-  background: transparent;
-  color: #3a3a3a;
   height: 100%;
-  overflow: hidden;
+    width: 100%;
+  background: linear-gradient(to right,rgba(37, 37, 37, 0.781),rgba(13, 5, 124, 0.418)), url("../images/bg.jpg")  no-repeat center center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
+
+#row{
+  margin-right: 0;
+}
+
+.logo-box{
+  height: 20px;
+  padding-top: 3em;
+}
+
+.srmimg{
+  width: 15%;
+  position: absolute;
+  left: 20%;
+
+}
+
+.techUtsavimg{
+  width: 25%;
+  position: absolute;
+  left: 60%;
+}
+
 #head-2{
   font-size: 400%;
   letter-spacing: 4px;
@@ -25,6 +48,13 @@ body, html {
   /* margin-bottom: 150px; */
   font-family: 'Iceland', sans-serif;
   font-size: 250%;
+}
+
+#head-4{
+  font-size: 200%;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 30px;
 }
 
 #info-para{
@@ -89,13 +119,8 @@ a:active {color: #416467;}
 ----------------------------------------*/
 
 .bg {
-	background: linear-gradient(to right,rgba(37, 37, 37, 0.781),rgba(13, 5, 124, 0.418)), url("../images/bg.jpg")  no-repeat center center;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-    height: 100%;
-    /* width: 100%; */
+  /* background: transparent; */
+    
 	position: relative;
 	text-align:center;
 }
