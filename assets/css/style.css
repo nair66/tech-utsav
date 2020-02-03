@@ -66,6 +66,25 @@ body, html {
   line-height: 1.5em;
 }
 
+/* @-moz-document url-prefix() {
+  
+} */
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  #head-2,
+  #head-3,
+  .timing {
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+    animation: none !important;
+    opacity: 1 !important;
+	}
+}
+
 @keyframes moveInTop{
   0%{
     opacity: 0;
@@ -184,10 +203,10 @@ a:active {color: #416467;}
 ----------------------------------------*/
 
 .timing {
+  opacity:0;
   margin-top: 30px;
   animation: fadeIn 2s ease-in 1s;
   animation-fill-mode: forwards;
-  opacity: 0;
 }
 .time_circles > div > h4 {
 	color: #EDB400;
