@@ -143,9 +143,9 @@ a:active {color: #416467;}
 ----------------------------------------*/
 
 .bg {  
-  overscroll-behavior: none;
 	position: relative;
-	text-align:center;
+  text-align:center;
+  overscroll-behavior: contain;
 }
 
 
